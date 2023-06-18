@@ -40,5 +40,15 @@ rec {
 
   touch = defaultDiskImages // {
     autoUpdateScript = toolchain.autoUpdateFixedsScript fixedsFile;
+
+    allPackages = lib.pipe debDistros [
+      (lib.mapAttrsToList (name: distro: distro.packagesLists))
+      lib.concatLists
+      (map (package: ''
+        ${package}
+      ''))
+      lib.concatStrings
+      (pkgs.writeText "allPackages.txt")
+    ];
   };
 }
