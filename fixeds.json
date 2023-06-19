@@ -1,17 +1,17 @@
 {
   "fetchurl": {
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz": {
-      "etag": "\"b01dc-5fe7053d7d800\"",
-      "last-modified": "Mon, 19 Jun 2023 00:08:00 GMT",
+      "etag": "\"b020c-5fe80c18c0000\"",
+      "last-modified": "Mon, 19 Jun 2023 19:44:00 GMT",
       "name": "Packages.xz",
-      "sha256": "1q77a6hyf6insyx7xx2jj3ma4fpkfci6d55g2lgsh0wd18wfhsmh",
+      "sha256": "08g570fzdr7wjg9zx82ipvlfd7gggwn7x68gh4kh39kjv6ny7dif",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
-      "etag": "\"e2678-5fe7053d7d800\"",
-      "last-modified": "Mon, 19 Jun 2023 00:08:00 GMT",
+      "etag": "\"e37b0-5fe80c18c0000\"",
+      "last-modified": "Mon, 19 Jun 2023 19:44:00 GMT",
       "name": "Packages.xz",
-      "sha256": "1y7v3wbgzd01zzkpsxvw7sjskyxd2gbzg532xzi1hbhm25zidsr3",
+      "sha256": "0w5iihgb52j8m0xry08cq7mlzdjsxwzray52q406qw8xyxks67lg",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy/main/binary-amd64/Packages.xz": {
@@ -27,6 +27,20 @@
       "name": "Packages.xz",
       "sha256": "1qjwcprsc55vq65cdn1r42apjivdnizcwsvhalrg9igyjd6b576j",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy/universe/binary-amd64/Packages.xz"
+    },
+    "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz": {
+      "etag": "\"38bf-5fc48fc09c030\"",
+      "last-modified": "Mon, 22 May 2023 14:21:19 GMT",
+      "name": "Packages.gz",
+      "sha256": "19d806dgqb4hwmw0wh5l8ivx2jbm1rqfcnh656rvy9b06r4ys07j",
+      "url": "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz"
+    },
+    "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-16/main/binary-amd64/Packages.gz": {
+      "etag": "\"64851eea-3071\"",
+      "last-modified": "Sun, 11 Jun 2023 01:10:02 GMT",
+      "name": "Packages.gz",
+      "sha256": "1m4ld6v6018dcmpkjzs1pxki40ns3j6wyqvs43n0hr59n03sksvi",
+      "url": "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-16/main/binary-amd64/Packages.gz"
     }
   }
 }

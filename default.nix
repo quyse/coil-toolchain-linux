@@ -6,49 +6,118 @@
 }:
 
 rec {
-  debDistros = {
-    ubuntu2204x86_64 = rec {
-      name = "ubuntu-22.04-jammy-amd64";
-      fullName = "Ubuntu 22.04 Jammy (amd64)";
-      packagesLists = [
-        (pkgs.fetchurl {
-          inherit (fixeds.fetchurl."${urlPrefix}/dists/jammy/main/binary-amd64/Packages.xz") url name sha256;
-        })
-        (pkgs.fetchurl {
-          inherit (fixeds.fetchurl."${urlPrefix}/dists/jammy-updates/main/binary-amd64/Packages.xz") url name sha256;
-        })
-        (pkgs.fetchurl {
-          inherit (fixeds.fetchurl."${urlPrefix}/dists/jammy/universe/binary-amd64/Packages.xz") url name sha256;
-        })
-        (pkgs.fetchurl {
-          inherit (fixeds.fetchurl."${urlPrefix}/dists/jammy-updates/universe/binary-amd64/Packages.xz") url name sha256;
-        })
-      ];
-      urlPrefix = "http://archive.ubuntu.com/ubuntu";
-      packages = pkgs.vmTools.commonDebPackages ++ [
-        "diffutils"
-        "libc-bin"
-      ];
+  # hacky wrapper around pkgs.vmTools.debClosureGenerator allowing multiple url prefixes
+  # rewrites Packages* files, adds urls directly into Filename field
+  generateDebClosure =
+  { name
+  , packagesLists
+  , arch
+  , packages
+  }:
+  pkgs.runCommand "${name}.closure.nix" {} ''
+    sed -e 's#url = "URL/#url = "#' < ${pkgs.vmTools.debClosureGenerator {
+      inherit name;
+      packagesLists = map (
+        { urlPrefix
+        , suite
+        , component
+        , format
+        }:
+        pkgs.runCommand "${suite}_${component}_${arch}_PackagesUrlExpanded.xz" {} ''
+          ${{
+            xz = "${pkgs.xz}/bin/xz -d";
+            bz2 = "${pkgs.bzip2}/bin/bunzip2";
+            gz = "${pkgs.gzip}/bin/gunzip";
+          }."${format}"} < ${pkgs.fetchurl {
+            inherit (fixeds.fetchurl."${urlPrefix}dists/${suite}/${component}/binary-${arch}/Packages.${format}") url name sha256;
+          }} | sed -e 's#^Filename: #Filename: '${lib.escapeShellArg urlPrefix}'#' | ${pkgs.xz}/bin/xz -0 > $out
+        ''
+      ) packagesLists;
+      urlPrefix = "URL";
+      packages = pkgs.vmTools.commonDebPackages ++ packages;
+    }} > $out
+  '';
+
+  makeDebDistImage = { name, packagesLists, arch, packages }: let
+    closure = generateDebClosure {
+      inherit name packagesLists arch packages;
     };
+  in pkgs.vmTools.fillDiskWithDebs {
+    inherit name;
+    fullName = name;
+    debs = import closure {
+      inherit (pkgs) fetchurl;
+    };
+    # reference closure in derivation so it's not GC'ed
+    postInstall = ''
+      echo ${closure}
+    '';
   };
 
-  diskImagesFuns = lib.mapAttrs (name: distro: extraPackages: pkgs.vmTools.makeImageFromDebDist (distro // {
-    inherit extraPackages;
-  })) debDistros;
+  diskImagesFuns = let
+    ubuntuDistroFun = { name, suite, arch }: packages: makeDebDistImage {
+      inherit name;
+      packagesLists = [
+        {
+          urlPrefix = "http://archive.ubuntu.com/ubuntu/";
+          inherit suite;
+          component = "main";
+          format = "xz";
+        }
+        {
+          urlPrefix = "http://archive.ubuntu.com/ubuntu/";
+          inherit suite;
+          component = "universe";
+          format = "xz";
+        }
+        {
+          urlPrefix = "http://archive.ubuntu.com/ubuntu/";
+          suite = "${suite}-updates";
+          component = "main";
+          format = "xz";
+        }
+        {
+          urlPrefix = "http://archive.ubuntu.com/ubuntu/";
+          suite = "${suite}-updates";
+          component = "universe";
+          format = "xz";
+        }
+        {
+          urlPrefix = "https://apt.kitware.com/ubuntu/";
+          inherit suite;
+          component = "main";
+          format = "gz";
+        }
+        {
+          urlPrefix = "https://apt.llvm.org/${suite}/";
+          suite = "llvm-toolchain-${suite}-${llvmVersion}";
+          component = "main";
+          format = "gz";
+        }
+      ];
+      inherit arch packages;
+    };
+  in lib.listToAttrs (map (
+    { version, suite, arch }: let
+      name = "ubuntu_${version}_${arch}";
+    in lib.nameValuePair name (ubuntuDistroFun {
+      inherit name suite arch;
+    })
+  ) [
+    {
+      version = "2204";
+      suite = "jammy";
+      arch = "amd64";
+    }
+  ]);
 
-  defaultDiskImages = lib.mapAttrs (name: f: f []) diskImagesFuns;
+  llvmVersion = "16";
+
+  defaultDiskImages = lib.mapAttrs (name: distroFun: distroFun [
+    "clang-${llvmVersion}"
+  ]) diskImagesFuns;
 
   touch = defaultDiskImages // {
     autoUpdateScript = toolchain.autoUpdateFixedsScript fixedsFile;
-
-    allPackages = lib.pipe debDistros [
-      (lib.mapAttrsToList (name: distro: distro.packagesLists))
-      lib.concatLists
-      (map (package: ''
-        ${package}
-      ''))
-      lib.concatStrings
-      (pkgs.writeText "allPackages.txt")
-    ];
   };
 }
