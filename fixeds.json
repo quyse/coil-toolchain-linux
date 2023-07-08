@@ -1,17 +1,17 @@
 {
   "fetchurl": {
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz": {
-      "etag": "\"bcb3c-5ffd9e8aa1500\"",
-      "last-modified": "Thu, 06 Jul 2023 23:31:00 GMT",
+      "etag": "\"bdc78-5ffedfbc6e000\"",
+      "last-modified": "Fri, 07 Jul 2023 23:28:00 GMT",
       "name": "Packages.xz",
-      "sha256": "045wm0sv9zk8nrinl4a9wiwgrlyly9jnl4v0986i5ra9qrwb5qsw",
+      "sha256": "14yg280bz999m830bgfj8xd6w14pmzb1vbfafw7cr90x4iqjy92d",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
-      "etag": "\"e552c-5ffd9e8aa1500\"",
-      "last-modified": "Thu, 06 Jul 2023 23:31:00 GMT",
+      "etag": "\"e5580-5ffedfbc6e000\"",
+      "last-modified": "Fri, 07 Jul 2023 23:28:00 GMT",
       "name": "Packages.xz",
-      "sha256": "0lx24zwv16z312niy3lbvigk8q1pl65ghs8q1zlndc1gn1acp5hj",
+      "sha256": "0s772xqfnbb5m9cdb113h0766ky179lvnc1zn7bn165z4xzkw2qk",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy/main/binary-amd64/Packages.xz": {
