@@ -1,17 +1,17 @@
 {
   "fetchurl": {
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz": {
-      "etag": "\"f6c04-605bec0f95914\"",
-      "last-modified": "Tue, 19 Sep 2023 23:38:19 GMT",
+      "etag": "\"f6eb0-605d3243ceeaa\"",
+      "last-modified": "Wed, 20 Sep 2023 23:57:44 GMT",
       "name": "Packages.xz",
-      "sha256": "1m8h3nh5nbvaykwpgrwvm7axgrchbcp9sjpigjnbkbyjg96gk50x",
+      "sha256": "14ij24j15qdz6ph8z1zx4mb9b0644127b6f7hccbk08bbcyzgizv",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
-      "etag": "\"effb8-605bec0f95914\"",
-      "last-modified": "Tue, 19 Sep 2023 23:38:19 GMT",
+      "etag": "\"f052c-605d3243ceeaa\"",
+      "last-modified": "Wed, 20 Sep 2023 23:57:44 GMT",
       "name": "Packages.xz",
-      "sha256": "04glhybdm0ygfsa8v0ix1awifj3rp2h0yqnhkc6k8dwkb3rcrbxd",
+      "sha256": "0jzrbfwlk65d3z0ma410lgmib9xxiv7pzyb87q6iyx443f8amz8a",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy/main/binary-amd64/Packages.xz": {
@@ -29,10 +29,10 @@
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy/universe/binary-amd64/Packages.xz"
     },
     "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz": {
-      "etag": "\"590e-6039861d7970a\"",
-      "last-modified": "Wed, 23 Aug 2023 15:01:11 GMT",
+      "etag": "\"64ff-605cd30c49b89\"",
+      "last-modified": "Wed, 20 Sep 2023 16:51:44 GMT",
       "name": "Packages.gz",
-      "sha256": "1bvkb9pxldgb91ha0xrkfqkv11zvickd5x5cpri7xirw9npvqdf0",
+      "sha256": "08lfp5ifb5j72ckjlkq9wv67p61bnax3smmsncwhbycmk83aa563",
       "url": "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-16/main/binary-amd64/Packages.gz": {
