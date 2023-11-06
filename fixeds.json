@@ -1,15 +1,15 @@
 {
   "fetchurl": {
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz": {
-      "etag": "\"1186d8-6095bd9bcfe5e\"",
-      "last-modified": "Sat, 04 Nov 2023 23:19:19 GMT",
+      "etag": "\"1186d8-6097067559b24\"",
+      "last-modified": "Sun, 05 Nov 2023 23:50:34 GMT",
       "name": "Packages.xz",
       "sha256": "0qkkx4821w3karkbnwnd0l0skkiv4bw1bwdl87i867q29f83z2nx",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
-      "etag": "\"f3d48-6095bd9bcfe5e\"",
-      "last-modified": "Sat, 04 Nov 2023 23:19:19 GMT",
+      "etag": "\"f3d48-6097067559b24\"",
+      "last-modified": "Sun, 05 Nov 2023 23:50:34 GMT",
       "name": "Packages.xz",
       "sha256": "0whqn23a7m6rfkswls5avya1ylk8rp1al6w2g4448dj9k0lb1r7p",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
