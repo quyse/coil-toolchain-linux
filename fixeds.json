@@ -1,17 +1,17 @@
 {
   "fetchurl": {
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz": {
-      "etag": "\"1423f0-61009b0a9d88f\"",
-      "last-modified": "Sun, 28 Jan 2024 23:14:24 GMT",
+      "etag": "\"14390c-6101d8d369325\"",
+      "last-modified": "Mon, 29 Jan 2024 22:56:09 GMT",
       "name": "Packages.xz",
-      "sha256": "09r2k6yajzcq4jf8h3qg6hd36ad5gkn8q0g1b5qq22lfxccddrch",
+      "sha256": "1lm2fy70pgn5wrcavpm53023z9nr56gp5277fj41ygp90082dy9f",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
-      "etag": "\"fcac4-61009b0a9d88f\"",
-      "last-modified": "Sun, 28 Jan 2024 23:14:24 GMT",
+      "etag": "\"fce1c-6101d8d369325\"",
+      "last-modified": "Mon, 29 Jan 2024 22:56:09 GMT",
       "name": "Packages.xz",
-      "sha256": "1b4a2masrp6yb13cac08260dafl6n1b5qxdxnalfa8lfiqwa022k",
+      "sha256": "0401xpdwk38ap595v0ilx87hb6v1y6b20f6v88bnfmjw9f40nqz6",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy/main/binary-amd64/Packages.xz": {
@@ -29,10 +29,10 @@
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy/universe/binary-amd64/Packages.xz"
     },
     "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz": {
-      "etag": "\"7720-60e20414aa1f3\"",
-      "last-modified": "Thu, 04 Jan 2024 15:19:17 GMT",
+      "etag": "\"7d62-6101de95a7efd\"",
+      "last-modified": "Mon, 29 Jan 2024 23:21:55 GMT",
       "name": "Packages.gz",
-      "sha256": "193giql9m9ydfg6z35wvb9l7hib2bys172kji87d0zg24vd1zrp7",
+      "sha256": "1yyh15fx7fqdgm64lb0csfximcxx4pzhrnl8z7kx5igjnlqhcqp6",
       "url": "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-16/main/binary-amd64/Packages.gz": {
