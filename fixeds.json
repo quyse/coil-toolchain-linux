@@ -1,15 +1,15 @@
 {
   "fetchurl": {
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz": {
-      "etag": "\"1502d0-611b0c53e8d14\"",
-      "last-modified": "Sun, 18 Feb 2024 23:59:41 GMT",
+      "etag": "\"1502d0-611c4b480c010\"",
+      "last-modified": "Mon, 19 Feb 2024 23:46:39 GMT",
       "name": "Packages.xz",
-      "sha256": "1nvvdizrmsnjc4wv4mnw8c0aydm20gqidwbmvs7iwm1yf7y72zg0",
+      "sha256": "0kz12s6dmw2j3gzl6j8y764jgs3x3hpd2d0jj82x342jlgarvq9w",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
-      "etag": "\"1002c0-611b0c53e8d14\"",
-      "last-modified": "Sun, 18 Feb 2024 23:59:41 GMT",
+      "etag": "\"1002c0-611c4b480c010\"",
+      "last-modified": "Mon, 19 Feb 2024 23:46:39 GMT",
       "name": "Packages.xz",
       "sha256": "11a5dywwcydbp8hi0bpiff0cvxpzi137sflylng7xmgrsxd48idb",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
