@@ -1,17 +1,17 @@
 {
   "fetchurl": {
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz": {
-      "etag": "\"17d2e4-615c6272d7fdb\"",
-      "last-modified": "Wed, 10 Apr 2024 23:11:05 GMT",
+      "etag": "\"17d3c8-615da2f8ca2f0\"",
+      "last-modified": "Thu, 11 Apr 2024 23:05:05 GMT",
       "name": "Packages.xz",
-      "sha256": "0x4rd077l8lhwwm2nspq2dzk25kplvjl0zg5slkfr86r70rgx8z2",
+      "sha256": "004x2x0wyzr7xd6cqcc0k1l2vcsqldmmznx3iiq1dd6mdphxf44g",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
-      "etag": "\"102e2c-615c6d3122404\"",
-      "last-modified": "Wed, 10 Apr 2024 23:59:09 GMT",
+      "etag": "\"1060f4-615da2f8ca2f0\"",
+      "last-modified": "Thu, 11 Apr 2024 23:05:05 GMT",
       "name": "Packages.xz",
-      "sha256": "0rkvkf0xgzz0razw40d0d4k2ak8q66lq8s7dazy65bnv0p2nfljd",
+      "sha256": "01mw95vsslnh8nbjprwa4szvi7jwigqngb0lb31djbfaap3mvj95",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy/main/binary-amd64/Packages.xz": {
@@ -29,10 +29,10 @@
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy/universe/binary-amd64/Packages.xz"
     },
     "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz": {
-      "etag": "\"8966-6143229f7d7bf\"",
-      "last-modified": "Thu, 21 Mar 2024 21:12:25 GMT",
+      "etag": "\"8f3d-615d877b52961\"",
+      "last-modified": "Thu, 11 Apr 2024 21:02:05 GMT",
       "name": "Packages.gz",
-      "sha256": "17mkzgl44g7l4yi652mfn8jizpvw9aldhci9k0w8cgd8ggq69gby",
+      "sha256": "0n1ab7f9r2j4kr4rkvk5y0w64hf9z5pn96n5v99md9k4pfwdf607",
       "url": "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-16/main/binary-amd64/Packages.gz": {
