@@ -114,7 +114,7 @@ rec {
       suite = "jammy";
       arch = "amd64";
       kitware = true;
-      llvmVersion = "16";
+      llvmVersion = "18";
     }
   ]);
 
@@ -123,7 +123,7 @@ rec {
       "clang-18"
     ];
     ubuntu_2204_amd64 = diskImagesFuns.ubuntu_2204_amd64 [
-      "clang-16"
+      "clang-18"
     ];
   };
 
