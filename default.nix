@@ -55,7 +55,7 @@ rec {
   };
 
   diskImagesFuns = let
-    ubuntuDistroFun = { name, suite, arch }: packages: makeDebDistImage {
+    ubuntuDistroFun = { name, suite, arch, kitware, llvmVersion }: packages: makeDebDistImage {
       inherit name;
       packagesLists = [
         {
@@ -82,40 +82,50 @@ rec {
           component = "universe";
           format = "xz";
         }
-        {
-          urlPrefix = "https://apt.kitware.com/ubuntu/";
-          inherit suite;
-          component = "main";
-          format = "gz";
-        }
-        {
-          urlPrefix = "https://apt.llvm.org/${suite}/";
-          suite = "llvm-toolchain-${suite}-${llvmVersion}";
-          component = "main";
-          format = "gz";
-        }
-      ];
+      ]
+      ++ lib.optional kitware {
+        urlPrefix = "https://apt.kitware.com/ubuntu/";
+        inherit suite;
+        component = "main";
+        format = "gz";
+      }
+      ++ lib.optional (llvmVersion != null) {
+        urlPrefix = "https://apt.llvm.org/${suite}/";
+        suite = "llvm-toolchain-${suite}-${llvmVersion}";
+        component = "main";
+        format = "gz";
+      };
       inherit arch packages;
     };
   in lib.listToAttrs (map (
-    { version, suite, arch }: let
+    { version, suite, arch, kitware ? false, llvmVersion ? null }: let
       name = "ubuntu_${version}_${arch}";
     in lib.nameValuePair name (ubuntuDistroFun {
-      inherit name suite arch;
+      inherit name suite arch llvmVersion kitware;
     })
   ) [
+    {
+      version = "2404";
+      suite = "noble";
+      arch = "amd64";
+    }
     {
       version = "2204";
       suite = "jammy";
       arch = "amd64";
+      kitware = true;
+      llvmVersion = "16";
     }
   ]);
 
-  llvmVersion = "16";
-
-  defaultDiskImages = lib.mapAttrs (name: distroFun: distroFun [
-    "clang-${llvmVersion}"
-  ]) diskImagesFuns;
+  defaultDiskImages = {
+    ubuntu_2404_amd64 = diskImagesFuns.ubuntu_2404_amd64 [
+      "clang-18"
+    ];
+    ubuntu_2204_amd64 = diskImagesFuns.ubuntu_2204_amd64 [
+      "clang-16"
+    ];
+  };
 
   touch = defaultDiskImages // {
     autoUpdateScript = toolchain.autoUpdateFixedsScript fixedsFile;
