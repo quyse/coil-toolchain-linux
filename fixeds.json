@@ -4,7 +4,7 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "0zv538pgyvfrzfr598d495j35w1caqrrdv9hc6gkgqvk0y2gbgpd",
+      "sha256": "0f4f25nmcxd2d4d4wah9bfrvkz3xaqv5bc4h2mn8n1nw4pa83qqj",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
