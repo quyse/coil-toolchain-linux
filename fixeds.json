@@ -4,14 +4,14 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "1i0lfv26wifps0xwmpyfjrvvm6c8w4jy4qpijcfkbx7c3qx3xk5k",
+      "sha256": "1a76naipfpngfrnn950hgql0dnmiwy68ggax5gh1i2n0vi0zapxi",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "0ai76j1x989dp187fxf5krlxsjmcisd90bd76rxzlrma3sys664d",
+      "sha256": "0f9dlqhf0ypfiq3ajljlwx5qfkry03nbx9gsv6krj1m2yf3rv1xf",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy/main/binary-amd64/Packages.xz": {
@@ -32,14 +32,14 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "08n639zih6by74z4zjjl8xzic1qhs6dy057vs0sp8lrysc07157v",
+      "sha256": "1kyizl4ww2q8v2nrhbzg9h5acsxkpfmisyy2xqbvb61phback2v0",
       "url": "http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz": {
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "1xnxx4y17z7ccz69whlwi20l1i422l79ilrb7dq83mmr1j8svwbj",
+      "sha256": "1yz6vmnvgri625mga80kyny08bg4qcp7lsgpb4kcry407xhv4m6h",
       "url": "http://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/noble/main/binary-amd64/Packages.xz": {
