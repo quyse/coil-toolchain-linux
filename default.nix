@@ -109,23 +109,23 @@ rec {
       suite = "noble";
       arch = "amd64";
       kitware = true;
-      llvmVersion = "19";
+      llvmVersion = "20";
     }
     {
       version = "2204";
       suite = "jammy";
       arch = "amd64";
       kitware = true;
-      llvmVersion = "19";
+      llvmVersion = "20";
     }
   ]);
 
   defaultDiskImages = {
     ubuntu_2404_amd64 = diskImagesFuns.ubuntu_2404_amd64 [
-      "clang-19"
+      "clang-20"
     ];
     ubuntu_2204_amd64 = diskImagesFuns.ubuntu_2204_amd64 [
-      "clang-19"
+      "clang-20"
     ];
   };
 
