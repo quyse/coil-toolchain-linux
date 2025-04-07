@@ -32,14 +32,14 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "0c2xp6xi83ck62xpdj0ds4sc9d79aj97smnhznfva69nsjgf9fbp",
+      "sha256": "01sr8yq8mvc14if558cdmdzm83nyp5na0hkrsa42b8yvqj1g57cz",
       "url": "http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz": {
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "0fm03kcyys2bnmyzlf9dk228ri3bl2g3gnbwfv0am4jz1fckza97",
+      "sha256": "019f48gka82ipkv6x4znl86ary40bi8n7gsbq9qpqvxm0xqkh271",
       "url": "http://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/noble/main/binary-amd64/Packages.xz": {
