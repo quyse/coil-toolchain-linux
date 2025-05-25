@@ -4,7 +4,7 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "1wbpz91p0akz77r8xqcfc50d6ng3cy18xj1f21bjvfrmj16cng39",
+      "sha256": "10zn0l3a1yw1cf3df49is5xbpvp10wpj812bv6776abdfjqhmx86",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
@@ -71,17 +71,17 @@
       "url": "https://apt.kitware.com/ubuntu/dists/noble/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-20/main/binary-amd64/Packages.gz": {
-      "etag": "\"6827ffe4-3312\"",
-      "last-modified": "Sat, 17 May 2025 03:17:56 GMT",
+      "etag": "\"6831b19d-331b\"",
+      "last-modified": "Sat, 24 May 2025 11:46:37 GMT",
       "name": "Packages.gz",
-      "sha256": "1sa55jyh99463s7r3vfpvnix8zkszgskm0j1x07svcrhpi18sr6l",
+      "sha256": "1afnf5m4b1nrk30w7q5nq7vhjididfa7i05w9s9rf66isqr25s91",
       "url": "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-20/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/noble/dists/llvm-toolchain-noble-20/main/binary-amd64/Packages.gz": {
-      "etag": "\"68280dd3-3356\"",
-      "last-modified": "Sat, 17 May 2025 04:17:23 GMT",
+      "etag": "\"6831a16a-3369\"",
+      "last-modified": "Sat, 24 May 2025 10:37:30 GMT",
       "name": "Packages.gz",
-      "sha256": "134g6inf1jv0fzpzha1z077kwzvlvz99vj5204iym3biz237ksj9",
+      "sha256": "1gi7nih9ackvsiql9xpp85af66vk0i40lm6ikyfykzjr6np0lzay",
       "url": "https://apt.llvm.org/noble/dists/llvm-toolchain-noble-20/main/binary-amd64/Packages.gz"
     }
   }
