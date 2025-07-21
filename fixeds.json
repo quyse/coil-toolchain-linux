@@ -32,14 +32,14 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "1b1nla9zg8lav0g0sqbxhhb96iavx83drdi8akxjqzhpai8rxm43",
+      "sha256": "0lygsg6gc6smrm70h1snrq7rwzbfi846prhgmnq3idgyh6n6dva5",
       "url": "http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz": {
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "1pi9srwp1r84y2bcwwhj9vlm0nqxwrslpifvf3aplkfzbnax83h9",
+      "sha256": "116smip5nzryd50c091ilw6ya5isw39q6f5mpzw131ldky3xqsyz",
       "url": "http://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/noble/main/binary-amd64/Packages.xz": {
@@ -78,10 +78,10 @@
       "url": "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-20/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/noble/dists/llvm-toolchain-noble-20/main/binary-amd64/Packages.gz": {
-      "etag": "\"684bf46b-333a\"",
-      "last-modified": "Fri, 13 Jun 2025 09:50:35 GMT",
+      "etag": "\"686e397e-3383\"",
+      "last-modified": "Wed, 09 Jul 2025 09:42:22 GMT",
       "name": "Packages.gz",
-      "sha256": "1xf5dvx1myqqnsx5d5hv50w4f21z56r92wkciijd2yx7gg9sqn8m",
+      "sha256": "11mcx21nmi7yfxc1f6wv41vskfq44sjb3q93qx8wj1yvrq3ng0z4",
       "url": "https://apt.llvm.org/noble/dists/llvm-toolchain-noble-20/main/binary-amd64/Packages.gz"
     }
   }
