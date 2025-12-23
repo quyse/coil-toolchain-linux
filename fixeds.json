@@ -78,10 +78,10 @@
       "url": "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-21/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/noble/dists/llvm-toolchain-noble-21/main/binary-amd64/Packages.gz": {
-      "etag": "\"693c1c04-346c\"",
-      "last-modified": "Fri, 12 Dec 2025 13:43:32 GMT",
+      "etag": "\"69482ae2-3482\"",
+      "last-modified": "Sun, 21 Dec 2025 17:14:10 GMT",
       "name": "Packages.gz",
-      "sha256": "0dqacarrilp4fj4am3gxk1b43g8lbs8hl6yy7cc2wwsfmzrf9x7n",
+      "sha256": "1mwgih8nbyhqy1v923963j0982ywk9mcc1za1p0f51p887r9ajv2",
       "url": "https://apt.llvm.org/noble/dists/llvm-toolchain-noble-21/main/binary-amd64/Packages.gz"
     }
   }
