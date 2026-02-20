@@ -4,14 +4,14 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "1yx3il3izdw80da0j5i98kz255xxqfdkplp3x8h5hsvp2c24rv2z",
+      "sha256": "05l9j5d6fc5vqzyg76clcshkldpv8cd4k92xpga5g6kdkvf6zx36",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "12hl4myv2qpydqyicy5fmdw7v05bjmjccf2xa8358a2dhgzsyan2",
+      "sha256": "1rlzx31cvbp0jigdna8932hlqwycv2007478rfnka83gsfy0wzfc",
       "url": "http://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/jammy/main/binary-amd64/Packages.xz": {
@@ -32,14 +32,14 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "0wg5s8bhgfnvpw0j5p1q5i4h15vk486s3jf3a3k88m3bj65mlh77",
+      "sha256": "1n2519nk8k5msy5s22j7iachskg2rjq7krlg6bkrcb1rz2saybqy",
       "url": "http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz": {
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "1wrk04hfx9xdynsph252qvkcl1i2c96z9bj0dxdgyf7gcq5f4jil",
+      "sha256": "1993a8wkgjy72vaadhccd4rkk5xlhw6zx824y70g519inbzmcvb3",
       "url": "http://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/noble/main/binary-amd64/Packages.xz": {
@@ -71,15 +71,15 @@
       "url": "https://apt.kitware.com/ubuntu/dists/noble/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-21/main/binary-amd64/Packages.gz": {
-      "etag": "\"68fa00f9-32fb\"",
-      "last-modified": "Thu, 23 Oct 2025 10:18:33 GMT",
+      "etag": "\"699c63d5-3454\"",
+      "last-modified": "Mon, 23 Feb 2026 14:27:33 GMT",
       "name": "Packages.gz",
-      "sha256": "0cidlk1298fzh1wc3x7a42if4jq59iylcafcmbdz49q3vraqwbhz",
+      "sha256": "1bzl3a8hdx7sr1lck6ls8askyr6cqwhcnx64m9g11rrmac75q2wy",
       "url": "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-21/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/noble/dists/llvm-toolchain-noble-21/main/binary-amd64/Packages.gz": {
-      "etag": "\"69482ae2-3482\"",
-      "last-modified": "Sun, 21 Dec 2025 17:14:10 GMT",
+      "etag": "\"69979094-3482\"",
+      "last-modified": "Thu, 19 Feb 2026 22:37:08 GMT",
       "name": "Packages.gz",
       "sha256": "1mwgih8nbyhqy1v923963j0982ywk9mcc1za1p0f51p887r9ajv2",
       "url": "https://apt.llvm.org/noble/dists/llvm-toolchain-noble-21/main/binary-amd64/Packages.gz"
