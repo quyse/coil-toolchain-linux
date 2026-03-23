@@ -39,7 +39,7 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "0azqqp0rymx61v7wl0jh4m88qxbizdj38kjasihdmqq2p42aiq2k",
+      "sha256": "1vfpp2wm44jr5bmwmf9bxxvjhm7cl8cm2ar09cxqq29agxwvrqf7",
       "url": "http://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz"
     },
     "http://archive.ubuntu.com/ubuntu/dists/noble/main/binary-amd64/Packages.xz": {
