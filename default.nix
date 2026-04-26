@@ -59,25 +59,25 @@ rec {
       inherit name;
       packagesLists = [
         {
-          urlPrefix = "http://archive.ubuntu.com/ubuntu/";
+          urlPrefix = "https://archive.ubuntu.com/ubuntu/";
           inherit suite;
           component = "main";
           format = "xz";
         }
         {
-          urlPrefix = "http://archive.ubuntu.com/ubuntu/";
+          urlPrefix = "https://archive.ubuntu.com/ubuntu/";
           inherit suite;
           component = "universe";
           format = "xz";
         }
         {
-          urlPrefix = "http://archive.ubuntu.com/ubuntu/";
+          urlPrefix = "https://archive.ubuntu.com/ubuntu/";
           suite = "${suite}-updates";
           component = "main";
           format = "xz";
         }
         {
-          urlPrefix = "http://archive.ubuntu.com/ubuntu/";
+          urlPrefix = "https://archive.ubuntu.com/ubuntu/";
           suite = "${suite}-updates";
           component = "universe";
           format = "xz";
