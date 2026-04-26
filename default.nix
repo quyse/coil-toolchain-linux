@@ -105,6 +105,11 @@ rec {
     })
   ) [
     {
+      version = "2604";
+      suite = "resolute";
+      arch = "amd64";
+    }
+    {
       version = "2404";
       suite = "noble";
       arch = "amd64";
@@ -121,6 +126,9 @@ rec {
   ]);
 
   defaultDiskImages = {
+    ubuntu_2604_amd64 = diskImagesFuns.ubuntu_2604_amd64 [
+      "clang-21"
+    ];
     ubuntu_2404_amd64 = diskImagesFuns.ubuntu_2404_amd64 [
       "clang-21"
     ];
