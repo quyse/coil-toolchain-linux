@@ -85,15 +85,15 @@
       "url": "https://archive.ubuntu.com/ubuntu/dists/noble/universe/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/main/binary-amd64/Packages.xz": {
-      "etag": "\"24650-65306032b2afa\"",
-      "last-modified": "Sat, 30 May 2026 09:59:08 GMT",
+      "etag": "\"24650-6531727aa54be\"",
+      "last-modified": "Sun, 31 May 2026 06:26:15 GMT",
       "name": "Packages.xz",
       "sha256": "1c2xpcvm4436f3xaj6m7gw4xwi6zz2yxhfkk5gac81lcjl8yhd6k",
       "url": "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/main/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/universe/binary-amd64/Packages.xz": {
-      "etag": "\"13138-65306032b2afa\"",
-      "last-modified": "Sat, 30 May 2026 09:59:08 GMT",
+      "etag": "\"13138-6531727aa54be\"",
+      "last-modified": "Sun, 31 May 2026 06:26:15 GMT",
       "name": "Packages.xz",
       "sha256": "0ypa85v21ipf2grhw2xcgvs1dv76f7wfys86jsjlaaf85mfcadz2",
       "url": "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/universe/binary-amd64/Packages.xz"
