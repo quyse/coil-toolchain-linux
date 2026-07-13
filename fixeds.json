@@ -1,17 +1,17 @@
 {
   "fetchurl": {
     "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz": {
-      "etag": "\"1dcaf-655a7451b8b4c\"",
-      "last-modified": "Thu, 02 Jul 2026 21:12:47 GMT",
+      "etag": "\"1e235-6567f32ba6715\"",
+      "last-modified": "Mon, 13 Jul 2026 14:49:32 GMT",
       "name": "Packages.gz",
-      "sha256": "1g4kf7rs6dap748dzsgcibzw6nslg8j67yhb2gi1gvqdgipi3lfs",
+      "sha256": "1ykn5w43a03i5f9x100ga0ypfvkv0s3xb95xyzbcsav0wwya1r7f",
       "url": "https://apt.kitware.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz"
     },
     "https://apt.kitware.com/ubuntu/dists/noble/main/binary-amd64/Packages.gz": {
-      "etag": "\"13ee8-655a73fcf5b11\"",
-      "last-modified": "Thu, 02 Jul 2026 21:11:18 GMT",
+      "etag": "\"144cb-6567f2db73724\"",
+      "last-modified": "Mon, 13 Jul 2026 14:48:08 GMT",
       "name": "Packages.gz",
-      "sha256": "1n59mkyf8qv78hxkkwd53s87fglii01lysfbszsg9mb24ssh3g9j",
+      "sha256": "0vdic7jh51wd0i6r6g8c3lfh1hh2spqqjp9nn936vmpwng5f2czf",
       "url": "https://apt.kitware.com/ubuntu/dists/noble/main/binary-amd64/Packages.gz"
     },
     "https://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-21/main/binary-amd64/Packages.gz": {
