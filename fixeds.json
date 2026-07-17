@@ -32,14 +32,14 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "19gngljly5mxzhiscqprjlzsiln66zphi3xwh7vx66bkv2cxiiq3",
+      "sha256": "1h4v5hrx2amhip6asd9swhlgbvj0gi96jmms83061w2gh3bd8ykq",
       "url": "https://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "1jw1z8ypq49jfn0qvjfw0g3rbxlh5z9h3zv7ria8z7c60jvkf4zm",
+      "sha256": "0n89fs2xzgjfr81wwvhrh7gksk1m9a1iyzs5hd097vypiv7n73gq",
       "url": "https://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/jammy/main/binary-amd64/Packages.xz": {
@@ -60,7 +60,7 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "0w43q15vkc5vcawgpqrph96vc6ankd72l72qdvw00ai9nzjiq2r9",
+      "sha256": "0s77yivrgrjnhr1dnzmz26w7rhfi6m354rxfkgzm8l2ph4c8dypq",
       "url": "https://archive.ubuntu.com/ubuntu/dists/noble-updates/main/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz": {
@@ -85,15 +85,15 @@
       "url": "https://archive.ubuntu.com/ubuntu/dists/noble/universe/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/main/binary-amd64/Packages.xz": {
-      "etag": "\"52ea0-656a84d17e52f\"",
-      "last-modified": "Wed, 15 Jul 2026 15:51:48 GMT",
+      "etag": "\"5717c-656c4e8b50d42\"",
+      "last-modified": "Fri, 17 Jul 2026 01:59:38 GMT",
       "name": "Packages.xz",
-      "sha256": "0hyhkdi6phzzwybp131znnx124zj1frp1jrpwq24f75ff3kdx6b4",
+      "sha256": "0s1lcg72axk6fx1j3gcksqdbxgiv7d10hjlzmc6rwf3vaw9jv9qm",
       "url": "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/main/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/universe/binary-amd64/Packages.xz": {
-      "etag": "\"32e20-656a84d17e52f\"",
-      "last-modified": "Wed, 15 Jul 2026 15:51:48 GMT",
+      "etag": "\"32e20-656c4e8b50d42\"",
+      "last-modified": "Fri, 17 Jul 2026 01:59:38 GMT",
       "name": "Packages.xz",
       "sha256": "0gv18i8cyq780986xrnzjjx000nakb14348plfx3snvxv4j7j1gk",
       "url": "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/universe/binary-amd64/Packages.xz"
