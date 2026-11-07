@@ -130,12 +130,15 @@ rec {
   defaultDiskImages = {
     ubuntu_2604_amd64 = diskImagesFuns.ubuntu_2604_amd64 [
       "clang-23"
+      "cmake"
     ];
     ubuntu_2404_amd64 = diskImagesFuns.ubuntu_2404_amd64 [
       "clang-23"
+      "cmake"
     ];
     ubuntu_2204_amd64 = diskImagesFuns.ubuntu_2204_amd64 [
       "clang-23"
+      "cmake"
     ];
   };
 
