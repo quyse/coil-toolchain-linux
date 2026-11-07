@@ -108,32 +108,34 @@ rec {
       version = "2604";
       suite = "resolute";
       arch = "amd64";
+      kitware = true;
+      llvmVersion = "23";
     }
     {
       version = "2404";
       suite = "noble";
       arch = "amd64";
       kitware = true;
-      llvmVersion = "21";
+      llvmVersion = "23";
     }
     {
       version = "2204";
       suite = "jammy";
       arch = "amd64";
       kitware = true;
-      llvmVersion = "21";
+      llvmVersion = "23";
     }
   ]);
 
   defaultDiskImages = {
     ubuntu_2604_amd64 = diskImagesFuns.ubuntu_2604_amd64 [
-      "clang-21"
+      "clang-23"
     ];
     ubuntu_2404_amd64 = diskImagesFuns.ubuntu_2404_amd64 [
-      "clang-21"
+      "clang-23"
     ];
     ubuntu_2204_amd64 = diskImagesFuns.ubuntu_2204_amd64 [
-      "clang-21"
+      "clang-23"
     ];
   };
 
