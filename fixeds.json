@@ -46,7 +46,7 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "12f3ch87gqiq0nnzb6xgdmz1q7151g67i6dkhqjmh2vjavffrfsb",
+      "sha256": "0h2acr1vmhbr377n9830x18iynm9a7y4rxgzqvs4fckz3gqryzw2",
       "url": "https://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/jammy-updates/universe/binary-amd64/Packages.xz": {
@@ -74,14 +74,14 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "06c5iq8wll10yyb961ldlamdvcdgs7dr1csfg5k77j0axjf5wnja",
+      "sha256": "1pg94dkh6ibzl47hmcb3j0rcvdzsd2359yq3afqbbwyc8f6fl9kb",
       "url": "https://archive.ubuntu.com/ubuntu/dists/noble-updates/main/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz": {
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "0197y7zfhrsliildg090391f4nbn5rjc56p84m6clm0h3rmmjkv4",
+      "sha256": "0cpy0s9d2w9297cw4j1f48yrm4p35qn2ina4xqnkxfmc1s8z318c",
       "url": "https://archive.ubuntu.com/ubuntu/dists/noble-updates/universe/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/noble/main/binary-amd64/Packages.xz": {
@@ -102,14 +102,14 @@
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "09qx9wr5qrgc24fl2xsq4gf5032c230q9al6jd0xygp4r0n8z0cx",
+      "sha256": "11638lm8cc0cym8xn9nqi7ffpz52bsssah6v95l916lr5hn9ibrp",
       "url": "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/main/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/universe/binary-amd64/Packages.xz": {
       "ignore_etag": true,
       "ignore_last_modified": true,
       "name": "Packages.xz",
-      "sha256": "187cmxyrprsnpblp2zp7z56qk7423zcml42cys9is78pa0ndc628",
+      "sha256": "0ay1jb0w6sv0x51yvv2xxzdwq738c3yh726hg3w390n5nc3fxqcr",
       "url": "https://archive.ubuntu.com/ubuntu/dists/resolute-updates/universe/binary-amd64/Packages.xz"
     },
     "https://archive.ubuntu.com/ubuntu/dists/resolute/main/binary-amd64/Packages.xz": {
